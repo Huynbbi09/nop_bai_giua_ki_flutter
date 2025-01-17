@@ -23,7 +23,7 @@ class RootLayout extends HookWidget {
       body: SafeArea(
         child: DefaultTextStyle(
           style: TextStyle(
-            color: isDark.value ? Colors.white : Colors.black, // Đổi màu chữ
+            color: isDark.value ? Colors.white : Colors.black,
           ),
           child: screen,
         ),

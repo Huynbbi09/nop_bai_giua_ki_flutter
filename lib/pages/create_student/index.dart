@@ -75,7 +75,7 @@ class CreateStudentScreen extends HookWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("Thêm Mới Sách"),
+        title: Text("Thêm Mới Sinh viên"),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
