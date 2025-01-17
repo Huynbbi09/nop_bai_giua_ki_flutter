@@ -19,7 +19,7 @@ class ButtonCustom extends HookWidget {
     return ElevatedButton(
       onPressed: loading == true ? () {} : onPressed ?? () {},
       style: ElevatedButton.styleFrom(
-        backgroundColor: Color(0xFF8E07C2),
+        backgroundColor: Colors.green,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(8),
         ),

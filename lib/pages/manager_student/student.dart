@@ -34,7 +34,7 @@ class StudentComponent extends HookWidget {
       width: width,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.all(Radius.circular(8.0.sp)),
-        border: Border.all(width: 2.0.sp, color: Color(0xFF6E54B5)),
+        border: Border.all(width: 2.0.sp, color: Colors.green),
       ),
       child: Padding(
         padding: EdgeInsets.all(8.0.sp),
